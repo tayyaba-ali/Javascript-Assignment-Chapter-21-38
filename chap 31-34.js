@@ -78,7 +78,7 @@
 // var laterDate=new Date('31 Dec 2020');
 // document.write(laterDate)
 
-
+//     Task 9
 // Create a date object of the starting date of this Ramadan and alert the number of days past since 1st Ramadan? Note: 1st Ramadan was on June 18, 2015 
 
 // var dateToday= new Date();

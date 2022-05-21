@@ -103,9 +103,25 @@
 // function calculateHypotenuse(base,perpendicular){
 
 
+// function calculateHypotenuse(base, perpendicular) {
+//     var base, perpendicular;
 
+//     function calculateSquare(num) {
+//         num = num * num;
+//         return num;
+//     }
+//     base = calculateSquare(base);
+//     perpendicular = calculateSquare(perpendicular);
+//     var hyp = base + perpendicular;
 
+//     return hyp;
 
+// }
+
+// var base = +prompt('Enter base of right angle triangle');
+// var perpendicular = +prompt('Enter perpendicular of right angle triangle');
+// var hyp = calculateHypotenuse(base, perpendicular)
+// alert('The hypotenuse of right angle triangle is ' + hyp)
 
 
 // Task 9
@@ -142,11 +158,41 @@
 // Task 11
 // Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
 
-function uppercase(){
-    var first
-}
+// function UpperCase(str) {
+//     var arr = str.split(' ');
+//     var newArray = [];
+//     for (var i = 0; i < arr.length; i++) {
+//         newArray.push(arr[i].charAt(0).toUpperCase() + arr[i].slice(1))
+//     }
+//     return newArray.join(' ')
+
+// }
+
+// var str = 'the quick brown fox'
+// var result = UpperCase(str)
+// document.write('EXAMPLE  SRING :' + str + '<br>')
+// document.write('EXPECTED  SRING :' + result + '<br>')
 
 
+// Task 12
+// Write a JavaScript function that accepts a string as a parameter and find the longest word within the string. 
 
-var str=prompt('Write words to uppercase');
-uppercase(str)
+
+// function longest(str) {
+//     var split = str.split(' ');
+//     var first = split[0].length;
+//     for (var i = 0; i < split.length; i++) {
+//         if (first < split[i].length) {
+//             first = split[i]
+//         }
+//     }
+//     return first;
+// }
+// var str = 'Web Development Tutorial ';
+// var result = longest(str);
+// document.write('EXAMPLE  SRING :' + str + '<br>')
+// document.write('EXPECTED  SRING :' + result + '<br>')
+
+
+// Task 13
+// Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.  Sample arguments : 'JSResourceS.com', 'o' .
