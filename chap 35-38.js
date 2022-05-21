@@ -196,3 +196,50 @@
 
 // Task 13
 // Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.  Sample arguments : 'JSResourceS.com', 'o' .
+
+// function count(str, letter) {
+//     var find=0;   
+//     for (var i = 0; i < str.length; i++) {
+//         if (str[i] === letter) {
+//             find += 1;
+//         }
+//     }
+//     return find
+// }
+// var str = 'JSResourceS.com';
+// var letter = 'o'
+// var result = count(str, letter);
+// document.write('The occurence of o in this string is ' + result)
+
+// Task 14
+//14. The Geometrizer
+// Create 2 functions that calculate properties of a circle, using
+// the definitions here.
+// Create a function called calcCircumference:
+// • Pass the radius to the function.
+// • Calculate the circumference based on the radius, and output
+// "The circumference is NN".
+// Create a function called calcArea:
+// • Pass the radius to the function.
+// • Calculate the area based on the radius, and output "The area
+// is NN".
+
+// Circumference of circle = 2πr
+// Area of circle = πr2
+
+// function calcCircumference(value){
+//     var circumference=2*3.141*value;
+//     return circumference
+// }
+//  function calcArea(value){
+//      var area=3.141*(value*value);
+//      return area
+//  }
+// var radius=+prompt('Enter radius of circle ');
+// var circumference=calcCircumference(radius);
+// var area=calcArea(radius);
+// document.write('The Circumference of circle is '+circumference+'<br>')
+// document.write('The Area of circle is '+area+'<br>')
+
+
+//--------End of Chap 35-38
